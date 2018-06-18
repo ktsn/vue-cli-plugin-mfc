@@ -30,6 +30,7 @@
     "prettier": "1.11.1"
   },
   "dependencies": {
+    "@vue/cli-service": "^3.0.0-rc.2",
     "vue-template-loader": "^1.0.0"
   }
 }
