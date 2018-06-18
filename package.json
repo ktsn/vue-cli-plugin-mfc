@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "@vue/cli-service": "^3.0.0-rc.2",
+    "vue-template-compiler": "^2.5.16",
     "vue-template-loader": "^1.0.0"
   }
 }
