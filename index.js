@@ -5,7 +5,7 @@ const transformAssetUrls = {
   image: 'xlink:href'
 }
 
-module.exports = function(api) {
+module.exports = api => {
   api.chainWebpack(webpackConfig => {
     // prettier-ignore
     webpackConfig.module

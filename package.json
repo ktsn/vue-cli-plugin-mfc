@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "files": [
+    "generator",
     "index.js"
   ],
   "repository": {
