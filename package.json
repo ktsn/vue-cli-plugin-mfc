@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-mfc",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Vue CLI plugin for multiple file component projects",
   "main": "index.js",
   "files": [
