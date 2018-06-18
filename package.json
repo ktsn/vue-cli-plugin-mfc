@@ -1,7 +1,7 @@
 {
   "name": "vue-cli-plugin-mfc",
   "version": "0.0.0",
-  "description": "",
+  "description": "Vue CLI plugin for multiple file component projects",
   "main": "index.js",
   "files": [
     "generator",
@@ -11,7 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/ktsn/vue-cli-plugin-mfc.git"
   },
-  "keywords": [],
+  "keywords": [
+    "Vue",
+    "Vue CLI",
+    "Vue CLI plugin",
+    "multiple file component",
+    "vue-template-loader"
+  ],
   "author": "katashin",
   "license": "MIT",
   "bugs": {
