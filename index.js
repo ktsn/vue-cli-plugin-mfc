@@ -11,6 +11,9 @@ module.exports = function(api) {
     webpackConfig.module
       .rule('template')
         .test(/\.html$/)
+        .exclude
+          .add(/public\/index.html$/)
+          .end()
         .use('template')
           .loader('vue-template-loader')
           .options({
@@ -22,6 +25,9 @@ module.exports = function(api) {
     webpackConfig.module
       .rule('functional')
         .test(/\.functional\.html$/)
+        .exclude
+          .add(/public\/index.html$/)
+          .end()
         .use('functional')
           .loader('vue-template-loader')
           .options({
